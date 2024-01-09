@@ -1,0 +1,28 @@
+Server P-EUMECH-DP9 is repaired and RDP accessible.
+It has lost domain connection at some point, fixed now.
+
+
+dc-app--LAST BACKUP --08/1/23
+dc-app2--LAST BACKUP--08/1/23
+dc-rds--LAST BACKUP --08/1/23
+vcenter2--LAST BACKUP--08/1/23
+dc-sql--LAST BACKUP--08/1/23
+
+MSO30 AND BACODA TOOLS 
+
+
+++Keeping this internal.
+
+Hi Ashish,
+
+As discussed, VM agent service was restarted and VM backup is running fine now. Pls update the ticket.
+
+sc query WindowsAzureGuestAgent
+
+net stop WindowsAzureGuestAgent
+
+net start WindowsAzureGuestAgent
+
+Thanks,
+Shavez Ali
+Planed Leave –

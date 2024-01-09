@@ -1,0 +1,35 @@
+AX_APP_WCY
+Windows (Windows Server 2008 R2 Datacenter)
+Standard B2s (2 vcpus, 4 GiB memory)
+Enterprise
+AxNW_VNET/Ax_QA_APP
+172.31.23.79
+V-QA-WC-161855329-498a-4f0a-9156-89a8db0332b3
+
+v_qa_wc_1_vhdx-----unmanaged
+
+V-QA-WC-1_v_qa_wc_1_vhdx_1a78e1be45534833bf16c9626dd65f60  ---managed
+
+V-QA-WC-1
+
+
+USE-UIPVDI5-trobleshootingosdisk
+
+USE-UIPVDI5testVM
+HyperV-VM
+
+INC0534737
+
+CTASK0023188
+
+2211140030001957
+v-weu-fs1
+
+AxNW_VNET_EMEA_Amsterdam/SNET-PRD-INF-WVD
+
+Windows (Windows 10 Enterprise for Virtual Desktops)
+West Europe
+RG-WEU-INF-WVD
+Standard D4s v4 (4 vcpus, 16 GiB memory)
+
+USE-SH-SPHP-7 - 

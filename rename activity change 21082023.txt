@@ -1,0 +1,54 @@
+V-USPHL-ECCCH-1 172.31.22.166
+
+1.snapshot name : V-USPHL-ECCCH-1_OSdisk21082023
+current details
+Vnet/subnet :AxNW_VNET/Ax_PROD_APP1
+Ip : 172.31.22.166
+NIC : V-USPHL-ECCCH-1cd07c097-2d03-4aae-953e-2b60ef9bf82e
+Availability set : AS-PRD-ECCCH-01-02
+
+Data disk : V-USPHL-ECCCH-1_v_usphl_eccch_1_d_D4E2A6AA_D005_eb05c60d79624c7090302917374e4847
+OS disk : V-USPHL-ECCCH-1_v_usphl_eccch_1_5E56B2B5_DCE0_4_06947db1e7c8489c9cf2fa2c6d8cc7c2
+size : Standard D2 v3 (2 vcpus, 8 GiB memory)
+RG : RG-USE-APP-ECO
+Location : East US
+
+NEW NIC : v-usphl-eccch-01504
+
+
+V-USPHL-ECCCH-2 172.31.22.167
+
+snapshot name : V-USPHL-ECCCH-2_OSdisksnap21082023
+current details
+Vnet/subnet : AxNW_VNET/Ax_PROD_APP1
+Ip:172.31.22.167
+NIC :V-USPHL-ECCCH-225567c76-1b2c-4f9b-859b-b4e1e9ffd691
+Availability set :AS-PRD-ECCCH-01-02
+Data disk :V-USPHL-ECCCH-2_v_usphl_eccch_2_d_8207DD00_7672_d40f69fa42b94dca918b00197402f781
+OS disk :V-USPHL-ECCCH-2_v_usphl_eccch_2_A1CDC5C1_706A_4_7307804f60404ab7986d07f9c43158c4
+size : Standard D2 v3 (2 vcpus, 8 GiB memory)
+RG : RG-USE-APP-ECO
+Location :East US
+Operating system: Linux (centos 6.10)
+New NIC : v-usphl-eccch-02444
+
+
+V-USPHL-ECSCD-1 172.31.22.168
+
+snapshot name :V-USPHL-ECSCD-1_osDISKSNAP21082023
+current details
+Vnet/subnet :AxNW_VNET/Ax_PROD_APP1
+IP : 172.31.22.168
+NIC : V-USPHL-ECSCD-126ff7132-6194-42df-9979-4829d34502de
+Availability set :na
+OS disk :V-USPHL-ECSCD-1_v_usphl_ecscd_1_66A81019_4983_4_6313c7e5dcab44f9a7f63306bdf431c0
+Data disk :V-USPHL-ECSCD-1_v_usphl_ecscd_1_d_7F4C0BA1_926A_a7fc2b7ab1054a529cc36ac7f9f39a24
+size :Standard E4 v3 (4 vcpus, 32 GiB memory)
+RG :RG-USE-APP-ECO
+Location :East US
+Operating system:Linux (centos 6.10)
+New NIC : v-usphl-ecscd-01964
+
+
+
+V-USPHL-ECOM-Ftp-01 172.31.22.169

@@ -1,0 +1,7 @@
+take VM backup
+migrate to manage validate from unix team
+take SNAPSHOT OF OS and data disk.
+collect all the details of VM like IP,VNET/SUBNET,LOCATION NIC CARD,
+DELETE ONLY VM
+
+Kishore Kumar

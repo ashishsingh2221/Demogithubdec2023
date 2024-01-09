@@ -1,0 +1,45 @@
+
+
+OS hardening for the below mentioned machine has been completed as below,
+
+
+
+•             Change Time zone to EST
+•             Install BigFix Agent
+•             Created DNS records (forward and reverse)
+•             Created volumes from unallocated spaces.
+•             Disabled Auto-updates
+•             Joined Domain Axaltacs.net
+•             Pointed server to KMS
+•             Latest Security patches has been updated
+
+Set-NetFirewallProfile -Profile Domain,Public,Private -Enabled False ----(firewall disable)
+
+Get-WMIObject Win32_Logicaldisk -ComputerName LocalHost |Select PSComputername,DeviceID, @{Name="SizeGB";Expression={$_.Size/1GB -as [int]}}, @{Name="FreeGB";Expression={[math]::Round($_.Freespace/1GB,2)}}
+
+tzutil /s "Eastern Standard Time"
+slmgr.vbs -skms v-usphl-dc-03.axaltacs.net ---point to KMS(key management server) 
+[Yesterday 5:54 AM] Krishna Singh
+slmgr.vbs -ato  ---windows activation 
+
+install bigfix
+ joined domain AXALTACS.NET
+UPDATE LATEST SECURITY PATCHES
+
+Disable auto update
+
+restart
+
+
+• Disabled Auto-updates
+
+sconfig
+
+
+
+1. To disable Windows Update through Group Policy Object:
+2. In the group policy editor, navigate to Computer Configuration -> Administrative Templates -> Windows Components -> Windows Update.
+3. Select "Configure Automatic Updates" and set its state as "Disabled".
+
+
+
