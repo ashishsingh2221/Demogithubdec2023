@@ -3,7 +3,7 @@ pipeline {
 
     tools {
         // Install the Maven version configured as "M3" and add it to the path.
-        maven "My maven"
+        maven "M3"
     }
 
     stages {
@@ -13,9 +13,7 @@ pipeline {
                 git 'https://github.com/ashishsingh2221/Demogithubdec2023.git'
 
                 // Run Maven on a Unix agent.
-                sh "mvn compile"
-                sh "mvn test"
-                sh "mvn package"
+                sh "mvn install"
 
                 // To run Maven on a Windows agent, use
                 // bat "mvn -Dmaven.test.failure.ignore=true clean package"
@@ -25,11 +23,9 @@ pipeline {
                 // If Maven was able to run the tests, even if some of the test
                 // failed, record the test results and archive the jar file.
                 success {
-                    echo 'build is successfull'
+                    echo 'build is successful'
                 }
-                failure{
-                    echo 'it is failed'
-                }
-                }
+            }
         }
+    }
 }
